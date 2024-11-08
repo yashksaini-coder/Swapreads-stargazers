@@ -4,19 +4,19 @@ on:
       repoOrg:
         description: "Repo User/Org"
         required: true
-        default: "pomber"
+        default: "anuragverma108"
       repoName:
         description: "Repo Name"
         required: true
-        default: "didact"
+        default: "SwapReads"
       starCount:
         description: "Star Count"
         required: true
-        default: "100"
+        default: "400"
       duration:
         description: "Duration (seconds)"
         required: false
-        default: "15"
+        default: "60"
   schedule:
     # Run every day at 00:00 UTC
     - cron: '0 0 * * *' 
